@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odoo Website Test</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!--HEADER-->
+    <header class="bg-primary">
+
+      <nav class="navbar navbar-expand-md fixed-top navbar-dark p-0 bg-primary m-0">
+        <div class="container px-4" style="border-bottom: solid thin cornflowerblue;">
+            <a class="navbar-brand p-0 m-0" href="https://odoo.com" target="_blank"><img src="images/odoo-white.svg" width="70" height="60" alt="Logo Odoo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item mx-1">
+                <a class="nav-link text-white" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-1">
+                <a class="nav-link text-white" href="#">Products</a>
+              </li>
+              <li class="nav-item mx-1">
+                <a class="nav-link text-white" href="#">Pages</a>
+              </li>
+              <li class="nav-item mx-1">
+                <a class="nav-link text-white" href="#">App</a>
+              </li>
+              <li class="nav-item mx-1">
+                <a class="nav-link text-white" href="#">Docs</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav">
+              <li class="nav-item mx-1 pb-0">
+                <a class="nav-link text-white align-baseline" href="#">Sign in</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-1" href="#">
+                  <button type="button" class="btn btn-light btn-sm pr-4">
+                    <i class="bi bi-bag m-2"></i><span class="align-baseline">Buy now</span>
+                  </button></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+
+
+      <div class="container mt-5 pt-5">
+
+        <!--BLOCK1-->
+        <div class="row firstblock text-white justify-content-between">
+
+          <!--block1-left-->
+          <div class="col-12 col-md-5 py-5">
+            <div class="row getstarted">
+              <div class="col-12 col-lg-7 px-0">
+                <h1 class="pb-3">Development done right</h1>
+                <p class="text-light">Build a beautiful, modern website with flexible components built from scratch.</p>
+              </div>
+            </div>
+            <div class="row getstarted">
+              <button type="button" class="btn btn-light btn-sm mt-4 mb-5 px-4 py-3 rounded-lg">Get Started<i class="bi bi-plus align-middle ml-3"></i></button>
+              <div class="col-md-12 px-0">
+                <ul class="list-inline">
+                  <li class="list-inline-item">Trusted by:</li>
+                  <li class="list-inline-item"><img src="images/google-white.svg" alt="google-logo" class="mx-1 trusted"></li>
+                  <li class="list-inline-item"><img src="images/spotify-white.svg" alt="spotify-logo" class="mx-1 trusted"></li>
+                  <li class="list-inline-item"></li><img src="images/airbnb-white.svg" alt="airbnb-logo" class="mx-1 trusted"></li>
+                  <li class="list-inline-item"></li><img src="images/paypal-white.svg" alt="paypal-logo" class="mx-1 trusted"></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!--block1-right-->
+          <div class="col-6 col-md-5 offset-md-1 px-3 card cardzone m-0">
+            <div class="row justify-content-between px-0 py-4 mx-0">
+              <div class="col-6">
+                <p>Manage cards</p>
+              </div>
+              <div class="col-6 text-right">
+                <button type="button" class="btn btn-outline-secondary btn-sm" style="font-size: 10px;">Add new</button>
+              </div>
+            </div>
+            <div class="row mastercard mx-3 px-0 mb-2">
+
+              <!--mastercard-->
+                <div class="col creditcard-inner mx-0 px-4 border">
+                  <div class="row justify-content-between pt-4 ">
+                    <div class="col-6">
+                      <img src="images/mastercard.svg" alt="mastercard">
+                    </div>
+                    <div class="col-6 text-right">
+                      <button type="button" class="btn btn-info btn-sm">Active</button>
+                    </div>
+                  </div>
+                    <p class="card-info-title my-0 pt-3">Card Number</p>
+                    <p class="card-number mb-3">4358 - 7421 - 9256 - 6682</p>
+                   <div class="row pb-4">
+                     <div class="col">
+                       <p class="card-info-title my-0">name</p>
+                       <p class="card-info">John Snow</p>
+                     </div>
+                     <div class="col">
+                       <p class="card-info-title my-0">expiry</p>
+                       <p class="card-info">11/23</p>
+                     </div>
+                   </div>
+                 </div>
+
+            </div>
+
+
+            <div class="col">
+              <div class="row mx-0 pt-2">
+                <div class="col-6 px-1"><p>Starbucks</p></div>
+                <div class="col-6 px-1 text-right"><p>$5,50 USD</p></div>
+              </div>
+              <div class="row mx-0 pt-0">
+                <div class="col px-1 mb-3"><p class="lighttext">Pending - San Francisco, United States</p></div>
+              </div>
+              <div class="row mx-0 pt-2 border-top">
+                <div class="col-6 px-1"><p>Nike Sports</p></div>
+                <div class="col-6 px-1 text-right"><p>$129,00 USD</p></div>
+              </div>
+              <div class="row mx-0 pt-0">
+                <div class="col px-1 mb-3"><p class="lighttext">Pending - Lisbon, Portugal</p></div>
+              </div>
+              <div class="row mx-0 pt-2 border-top">
+                <div class="col px-1 pb-4"><span class="underline underline-dotted view-all">View all ></span></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="row diagonal1 bg-primary p-0 m-0"></div>
+    </header>
+
+    <!--MAIN-->
+    <main class="py-5 bg-white">
+      <div class="container">
+
+        <!--tools-->
+        <div class="row tools mt-3 align-items-center">
+          <div class="col-12 col-md-6">
+              <div class="row justify-content-end">
+                <div class="col-8 border shadow-lg rounded-lg position-absolute bg-white bloc2img1 px-0 pl-3">
+
+                    <button type="button" class="btn btn-light btn-sm playvideo">Play video <i class="bi bi-play"></i></button>
+
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-md-10 px-4 box-shadow rounded-lg bg-white mt-5">
+                  <h6 class="py-3">Awesome projects</h6>
+
+                  <ul class="list-inline d-flex justify-content-between">
+                    <li class="list-inline-item"><h8>Create the new logo</h8></li>
+                    <li class="list-inline-item"><p>3:50 ></p></li>
+                  </ul>
+                  <div class="progress mt-1 mb-4" style="height: 2px;">
+                    <div class="progress-bar progress-bar bg-warning" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+
+                  <ul class="list-inline d-flex justify-content-between">
+                    <li class="list-inline-item"><h8>Set up the color palette</h8></li>
+                    <li class="list-inline-item"><p>4:00 ></p></li>
+                  </ul>
+                  <div class="progress mt-1 mb-4" style="height: 2px;">
+                    <div class="progress-bar progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+
+                  <ul class="list-inline d-flex justify-content-between">
+                    <li class="list-inline-item"><h8>Wireframe and prototype</h8></li>
+                    <li class="list-inline-item"><p>6:50 ></p></li>
+                  </ul>
+                  <div class="progress mt-1 mb-4" style="height: 2px;">
+                    <div class="progress-bar progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 pl-5 bloc-txt">
+            <div class="row py-5">
+              <div class="col-12">
+                <span class="badge badge-warning p-2 text-white rounded-pill">Tools</span>
+                <h3 class="my-4">We build for designers and developers</h3>
+                <p>Get components and examples, including tons of variables that will help you grow your business.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--curve1-->
+        <div class="row justify-content-center">
+          <div class="col-3 p-0 blocline1">
+            <div id="curves" class="curvewidth1">
+              <div id="curve1"></div>
+            </div>
+          </div>
+        </div>
+
+        <!--features-->
+        <div class="row features align-items-center">
+          <div class="col-12 col-md-6">
+            <div class="row py-5">
+              <div class="col-12 pl-0">
+                <span class="badge badge-info p-2 text-white rounded-pill">Features</span>
+                <h6 class="my-4">Get components and examples, including tons of variables that will help you grow your business.</h6>
+                <ul class="list-group">
+                  <li class="list-group-item border-0 pl-0 py-2 text-info"><i class="bi bi-check-square-fill text-info mr-2"></i>Perfect for modern startups</li>
+                  <li class="list-group-item border-0 pl-0 py-2 text-info"><i class="bi bi-check-square-fill text-info mr-2"></i>Fully customizable and scalable</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-md-6 bloc2img2 shadow-lg">
+              <button type="button" class="btn btn-light btn-sm playvideo">Play video <i class="bi bi-play"></i></button>
+          </div>
+        </div>
+
+        <!--curve2-->
+        <div class="row justify-content-center">
+          <div class="col-3 p-0 blocline2">
+            <div id="curves" class="curvewidth2">
+              <div id="curve2"></div>
+            </div>
+          </div>
+        </div>
+
+        <!--technology-->
+        <div class="row technology align-items-center">
+          <div class="col-12 col-md-6">
+            <div class="row justify-content-between">
+              <div class="col mr-2 my-auto">
+                <div class="row">
+                  <div class="col-12 p-0 rounded-lg my-3">
+                  
+                    <div class="card w-100 text-center box-shadow border" style="width: 18rem;">
+                      <img class="card-img-top" src="images/person_03.jpg" alt="Card image cap">
+                      <div class="card-body px-0 py-0 pt-2">
+
+                        <div class="media w-100 p-3">
+                          <div class="media-body">
+                            <div class="row px-2">
+                              <div class="col-3 px-0"><span class="rounded-circle bg-warning text-white p-2">JH</span></div>
+                              <div class="col-7 px-0 text-left"><span class="card-text" style="font-size: 10px;">Jimmy Hendrix</span></div>
+                              <div class="col-2 px-0 text-center"><span class="card-text"><i class="bi bi-heart"></i></span></div>
+                            </div>
+                          </div>
+                        </div>
+
+                       </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 p-0 rounded-lg my-3">
+
+                  <div class="media w-100 text-left box-shadow rounded-lg border p-3">
+                    <span class="rounded-circle bg-info text-white p-2 mr-2 align-self-center"><i class="bi bi-check-lg" style="margin: 0 4px;"></i></span>
+                    <div class="media-body">
+                      <p class="text-left text-dark">300+ components</p>
+                      <p class="text-left lighttext">Built to be customized.</p>
+                    </div>
+                  </div>
+                </div> 
+                </div>
+              </div>
+              <div class="col ml-2">
+                <div class="row">
+                  <div class="col-12 p-0 rounded-lg my-3">
+                    <div class="card w-100 text-center box-shadow py-4 px-2 border" style="width: 18rem;">
+                      <img class="card-img-top w-50 mx-auto mt-3" src="images/airbnb.svg" alt="Card image cap">
+                      <div class="card-body">
+                        <p class="card-text">
+                            <i class="bi bi-star" style="color: orange;"></i>
+                            <i class="bi bi-star" style="color: orange;"></i>
+                            <i class="bi bi-star" style="color: orange;"></i>
+                            <i class="bi bi-star" style="color: orange;"></i>
+                            <i class="bi bi-star" style="color: #ccc;"></i>
+                            <p class="text-left text-dark text-center pt-3">4.95 out of 5 stars</p>
+                            <p class="text-left lighttext text-center">from 23 reviews</p>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 p-0 rounded-lg my-3">
+                  <div class="card w-100 text-center box-shadow py-4 px-2 border" style="width: 18rem;">
+                    <img class="card-img-top rounded-circle w-25 mx-auto mt-3" src="images/company_01.png" alt="Card image cap">
+                    <div class="card-body pb-0">
+                      <p class="card-text">Website UI Kit</p>
+                        <div class="row justify-content-center">
+                          <div class="col-10 mx-0 px-0 pb-4">
+                            <img src="images/person_01.jpg" alt="person_01" class="rounded-circle w-25 mt-3 img-profile1">
+                            <img src="images/person_02.jpg" alt="person_02" class="rounded-circle w-25 mt-3 img-profile2">
+                            <img src="images/person_03.jpg" alt="person_03" class="rounded-circle w-25 mt-3 img-profile3">
+                          </div>
+                        </div>
+
+                        <div class="row justify-content-center">
+                          <div class="col-6 mx-0 px-0 py-2 border-top">
+                            <i class="bi bi-paperclip px-1"></i>
+                            <i class="bi bi-eye px-1"></i>
+                            <i class="bi bi-heart px-1"></i>
+                          </div>
+                        </div>
+                        
+                      
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 pl-5 bloc-txt">
+            <div class="row py-5">
+              <div class="col-12">
+                <span class="badge badge-primary p-2 text-white rounded-pill">Technology</span>
+                <h3 class="my-4">We use the latest technologies on the market</h3>
+                <p class="mb-3">Get components and examples, including tons of variables that will help you grow your business.</p>
+                <p class="case-studies"><span class="mt-5 underline-link"><a href="#">See case studies</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!--curve1-->
+        <div class="row justify-content-center">
+          <div class="col-3 p-0 blocline1">
+            <div id="curves" class="curvewidth1">
+              <div id="curve1"></div>
+            </div>
+          </div>
+        </div>
+        
+
+        <!--install-->
+        <div class="row install align-items-center">
+          <div class="col-12 col-md-6">
+            <div class="row py-5">
+              <div class="col-12 pl-0">
+                <span class="badge badge-warning p-2 text-white rounded-pill">Easy to install</span>
+                <h3 class="my-4">Download, install and run.</h3>
+                <p>Get components and examples, including tons of variables that will help you grow your business.</p>
+                <div class="row mt-4 justify-content-start mx-0 pt-4">
+
+                  <div class="col-12 px-0">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <a href="#" class="btn btn-store">
+                        <div class="row">
+                          <div class="col-3 mx-0 px-0">
+                            <i class="bi bi-apple" style="font-size: 20px;"></i>
+                          </div>
+                          <div class="col-8 mx-0 pl-0 pr-3">
+                            <span class="btn-label">Download on the</span>
+                            <span class="btn-caption">App Store</span>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="btn btn-store">
+                        <div class="row">
+                          <div class="col-3 mx-0 px-0">
+                            <i class="bi bi-play-fill" style="font-size: 20px;"></i>
+                          </div>
+                          <div class="col-9 mx-0 pl-0 pr-3">
+                            <span class="btn-label">Download on the</span>
+                            <span class="btn-caption">Google Play</span>
+                          </div>
+                        </div>
+                      </a></li>
+                  </ul>
+                  </div>
+
+                          
+                          
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-md-6 border bloc2img3 ">
+            <button type="button" class="btn btn-light btn-sm playvideo">Play video <i class="bi bi-play"></i></button>
+          </div>
+        </div>
+
+
+
+
+        <!--curve2-->
+        <div class="row dashedline justify-content-center">
+          <div class="col-3 p-0 blocline2">
+            <div id="curves" class="curvewidth2">
+              <div id="curve2"></div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!--solutions-->
+        <div class="row solutions my-5">
+          <div class="col-12 text-white p-5 infinite">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-12 col-md-8 pl-4 pr-0 py-4">
+                <h5>Infinite solutions</h5>
+                <p>Intuitive markup, powerful and lightning-fast build tools,<br>
+                  everything you need to turn your ideas into incredible products.
+                  </p>
+              </div>
+                  <div class="col-12 col-md-4 pl-0 pr-4 text-right learnmore">
+                    <button type="button" class="btn btn-light btn-sm px-4 py-3 rounded-lg">Learn more<i class="bi bi-arrow-right-short pl-3"></i></button>
+                  </div>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+      
+    </main>
+
+
+    <section class="awards-bg pt-5">
+      <!--awards-->
+      
+      <div class="container">
+
+        <div class="row my-5">
+          <div class="col-12">
+            <span class="badge badge-primary p-2 text-white rounded-pill">Awards</span>
+            <h6 class="my-4">Awards for design, creativity, and innovation on the Internet</h6>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+      <!--CAROUSSEL-->
+      <div class="row justify-content-between px-0 mx-auto">
+        <div class="col-12 p-0 m-0">
+
+            <div class="carousel slide carousel-multi-item" data-ride="carousel">
+              <div class="carousel-inner" role="listbox">
+
+                <!--First slide-->
+                <div class="carousel-item active px-2">
+
+                  <div class="row container mx-auto" style="height: auto; min-height: 350px;">
+                    <div class="col-6 col-md-3 mt-auto mb-3">
+                      <a href="#" style="text-decoration: none;">
+                      <div class="card w-100 text-center box-shadow py-4 px-2 border awards" style="width: 18rem;">
+                        <img class="card-img-top w-50 mx-auto mt-3" src="images/airbnb.svg" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text">
+                              <i class="bi bi-star" style="color: orange;"></i>
+                              <i class="bi bi-star" style="color: orange;"></i>
+                              <i class="bi bi-star" style="color: orange;"></i>
+                              <i class="bi bi-star" style="color: orange;"></i>
+                              <i class="bi bi-star" style="color: #ccc;"></i>
+                              <p class="h6 text-left text-dark text-center pt-3">4.95 out of 5 stars</p>
+                              <p class="text-left lighttext text-center">from 23 reviews</p>
+                          </p>
+                        </div>
+                      </div>
+                      </a>
+                    </div>
+                    
+
+                    <div class="col-6 col-md-3 clearfix mt-3">
+                      <a href="#" style="text-decoration: none;">
+                      <div class="card w-100 text-center box-shadow py-4 px-2 border awards" style="width: 18rem;">
+                        <img class="card-img-top w-50 mx-auto mt-3" src="images/amazon.svg" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text">
+                              <p class="text-left text-dark text-center pt-3">They build modern looking websites easily using Tabs.</p>
+                              <p class="case-studies pt-3"><span class="mt-5 underline-link-learn text-dark">Learn more</span>
+                          </p>
+                        </div>
+                      </div>
+                      </a>
+                    </div>
+
+                    <div class="col-6 col-md-3 clearfix mt-auto mb-3">
+                      <a href="#" style="text-decoration: none;">
+                      <div class="card w-100 text-center box-shadow py-4 px-2 border awards" style="width: 18rem;">
+                        <img class="card-img-top w-50 mx-auto mt-3" src="images/slack.svg" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text">
+                            <p class="text-left text-dark text-center pt-3">They build modern looking websites easily using Tabs.</p>
+                            <p class="case-studies pt-3"><span class="mt-5 underline-link-learn text-dark">Learn more</span>
+                          </p>
+                        </div>
+                      </div>
+                      </a>
+                    </div>
+
+                    <div class="col-6 col-md-3 clearfix mt-3">
+                      <a href="#" style="text-decoration: none;">
+                      <div class="card w-100 text-center box-shadow py-4 px-2 border awards" style="width: 18rem;">
+                        <img class="card-img-top w-50 mx-auto mt-3" src="images/spotify.svg" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text">
+                              <i class="bi bi-star" style="color: orange;"></i>
+                              <i class="bi bi-star" style="color: orange;"></i>
+                              <i class="bi bi-star" style="color: orange;"></i>
+                              <i class="bi bi-star" style="color: orange;"></i>
+                              <i class="bi bi-star" style="color: #ccc;"></i>
+                              <p class="h6 text-left text-dark text-center pt-3">4.95 out of 5 stars</p>
+                              <p class="text-left lighttext text-center">from 23 reviews</p>
+                          </p>
+                        </div>
+                      </div>
+                      </a>
+                    </div>
+
+                  </div>
+
+                </div>
+                <!--End First slide-->
+
+                <!--Second slide-->
+                <div class="carousel-item px-2">
+
+                  <div class="row container mx-auto" style="height: auto; min-height: 350px;">
+                    <div class="col-6 col-md-3 mt-auto mb-3">
+                      <a href="#" style="text-decoration: none;">
+                      <div class="card w-100 text-center box-shadow py-4 px-2 border awards" style="width: 18rem;">
+                        <img class="card-img-top w-50 mx-auto mt-3" src="images/paypal.svg" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text">
+                              <p class="text-left text-dark text-center pt-3">They build modern looking websites easily using Tabs.</p>
+                              <p class="case-studies pt-3"><span class="mt-5 underline-link-learn text-dark">Learn more</span>
+                          </p>
+                        </div>
+                      </div>
+                      </a>
+                    </div>
+
+                    <div class="col-6 col-md-3 clearfix mt-3">
+                      <a href="#" style="text-decoration: none;">
+                      <div class="card w-100 text-center box-shadow py-4 px-2 border awards" style="width: 18rem;">
+                        <img class="card-img-top w-50 mx-auto mt-3" src="images/airbnb.svg" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text">
+                              <i class="bi bi-star" style="color: orange;"></i>
+                              <i class="bi bi-star" style="color: orange;"></i>
+                              <i class="bi bi-star" style="color: orange;"></i>
+                              <i class="bi bi-star" style="color: orange;"></i>
+                              <i class="bi bi-star" style="color: #ccc;"></i>
+                              <p class="text-left text-dark text-center pt-3">4.95 out of 5 stars</p>
+                              <p class="text-left lighttext text-center">from 23 reviews</p>
+                          </p>
+                        </div>
+                      </div>
+                      </a>
+                    </div>
+
+                    <div class="col-6 col-md-3 clearfix mt-auto mb-3">
+                      <a href="#" style="text-decoration: none;">
+                      <div class="card w-100 text-center box-shadow py-4 px-2 border awards" style="width: 18rem;">
+                        <img class="card-img-top w-50 mx-auto mt-3" src="images/amazon.svg" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text">
+                              <p class="text-left text-dark text-center pt-3">They build modern looking websites easily using Tabs.</p>
+                              <p class="case-studies pt-3"><span class="mt-5 underline-link-learn text-dark">Learn more</span>
+                          </p>
+                        </div>
+                      </div>
+                      </a>
+                    </div>
+
+                    <div class="col-6 col-md-3 clearfix mt-3">
+                      <a href="#" style="text-decoration: none;">
+                      <div class="card w-100 text-center box-shadow py-4 px-2 border awards" style="width: 18rem;">
+                        <img class="card-img-top w-50 mx-auto mt-3" src="images/slack.svg" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text">
+                            <p class="text-left text-dark text-center pt-3">They build modern looking websites easily using Tabs.</p>
+                            <p class="case-studies pt-3"><span class="mt-5 underline-link-learn text-dark">Learn more</span>
+                          </p>
+                        </div>
+                      </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!--End Second slide-->
+
+              </div>
+            </div>            
+        </div>
+      </div><!--End caroussel-->
+
+
+      <div class="row diagonal3 bg-white p-0 m-0"></div>
+    </section>
+
+
+    <section class="answers m-0 p-0">
+      <div class="container">
+        
+        <!--answers-->
+        <div class="row answers my-5">
+          <div class="col-12 text-center">
+            <h3>Helpful answers</h3>
+            <p class="text-secondary">Start building fast, beautiful, and modern-looking websites in no time.</p>
+          </div>
+        </div>
+
+        
+
+          
+            <div class="accordion" id="accordionExample">
+
+              <div class="row answers">
+
+                <div class="col-6">
+                  <div class="card border-0">
+                    <div class="card-header p-0 btn-sm rounded-lg faq-btn border bg-white mb-3" id="headingOne">
+                      <h2 class="mb-0">
+                        <button type="button" class="btn btn-white btn-block  px-4 py-3 m-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          <div class="row justify-content-between">
+                            <div class="col-1 px-0 text-center"><i class="bi bi-file-earmark mx-3"></i></div>
+                            <div class="col-9 pl-4 text-left">Which license do I need?</div>
+                            <div class="col-2 px-0 text-right"><i class="bi bi-plus mx-3"></i></div>
+                          </div>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                      <div class="card-body pt-0">
+                        A super Odoo license.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card border-0">
+                    <div class="card-header btn-sm p-0 rounded-lg faq-btn border bg-white mb-3" id="headingTwo">
+                      <h2 class="mb-0">
+                        <button type="button" class="btn btn-white btn-block px-4 py-3 m-0" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <div class="row justify-content-between">
+                            <div class="col-1 px-0 text-center"><i class="bi bi-lock mx-3"></i></div>
+                            <div class="col-9 pl-4 text-left">How do I get access to my database?</div>
+                            <div class="col-2 px-0 text-right"><i class="bi bi-plus mx-3"></i></div>
+                          </div>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div class="card-body pt-0">
+                        Somewhere out there.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card border-0">
+                    <div class="card-header btn-sm p-0 rounded-lg faq-btn border bg-white mb-3" id="headingThree">
+                      <h2 class="mb-0">
+                        <button type="button" class="btn btn-white btn-block px-4 py-3 m-0" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <div class="row justify-content-between">
+                            <div class="col-1 px-0 text-center"><i class="bi bi-folder mx-3"></i></div>
+                            <div class="col-9 pl-4 text-left">How do I see previous orders?</div>
+                            <div class="col-2 px-0 text-right"><i class="bi bi-plus mx-3"></i></div>
+                          </div>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="card-body pt-0">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur earum tempore ullam eius, doloribus placeat a blanditiis iste rem explicabo.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6">
+                  <div class="card border-0">
+                    <div class="card-header btn-sm p-0 rounded-lg faq-btn border bg-white mb-3" id="headingFour">
+                      <h2 class="mb-0">
+                        <button type="button" class="btn btn-white btn-block px-4 py-3 m-0" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          <div class="row justify-content-between">
+                            <div class="col-1 px-0 text-center"><i class="bi bi-file-earmark mx-3"></i></div>
+                            <div class="col-9 pl-4 text-left">Which license do I need?</div>
+                            <div class="col-2 px-0 text-right"><i class="bi bi-plus mx-3"></i></div>
+                          </div>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                      <div class="card-body pt-0">
+                        A super Odoo license.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card border-0">
+                    <div class="card-header btn-sm p-0 rounded-lg faq-btn border bg-white mb-3" id="headingFive">
+                      <h2 class="mb-0">
+                        <button type="button" class="btn btn-white btn-block px-4 py-3 m-0" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          <div class="row justify-content-between">
+                            <div class="col-1 px-0 text-center"><i class="bi bi-lock mx-3"></i></div>
+                            <div class="col-9 pl-4 text-left">How do I get access to my database?</div>
+                            <div class="col-2 px-0 text-right"><i class="bi bi-plus mx-3"></i></div>
+                          </div>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                      <div class="card-body pt-0">
+                        Somewhere out there.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card border-0">
+                    <div class="card-header btn-sm p-0 rounded-lg faq-btn border bg-white mb-3" id="headingSix">
+                      <h2 class="mb-0">
+                        <button type="button" class="btn btn-white btn-block px-4 py-3 m-0" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                          <div class="row justify-content-between">
+                            <div class="col-1 px-0 text-center"><i class="bi bi-folder mx-3"></i></div>
+                            <div class="col-9 pl-4 text-left">How do I see previous orders?</div>
+                            <div class="col-2 px-0 text-right"><i class="bi bi-plus mx-3"></i></div>
+                          </div>
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                      <div class="card-body pt-0">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat libero commodi, nesciunt velit laudantium iure deleniti nemo provident consequatur praesentium, distinctio quasi nulla perspiciatis voluptates fugiat maiores eos quas saepe!
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+        
+
+            <div class="row answers my-5">
+              <div class="col-12 text-center">
+                <h6 style="font-weight: 400">I want to start a new project</h6>
+                <ul class="list-inline mt-4">
+                  <li class="list-inline-item mx-2"><button type="button" class="btn btn-primary btn-sm px-4 py-2 mx-2 rounded-lg">Buy now<i class="bi bi-arrow-right-short pl-3"></i></button></li>
+                  <li class="list-inline-item mx-2"><a href="#" class="text-secondary">Learn more</a></li>
+                </ul>
+              </div>
+            </div>
+
+
+
+      </div>
+      <div class="row diagonal4 bg-white p-0 m-0"></div>
+    </section>
+
+
+    <!--FOOTER-->
+    <footer class="bottom text-white pt-2">
+      <div class="container">
+
+
+        <div class="row align-items-center my-5 mx-0 p-0">
+
+          <div class="col-12 col-md-6 p-0 brilliant">
+            <h3>Brilliant solutions for your ideas</h3>
+            <p class="text-light">Modern-looking websites.</p>
+          </div>
+          <div class="col-12 col-md-6 text-right p-0">
+            <ul class="list-inline p-0 m-0 brilliant">
+              <li class="list-inline-item mr-1"><button type="button" class="btn btn-light btn-sm px-4 py-2 rounded-lg"><i class="bi bi-journals pr-3 text-primary"></i>Documentation</button></li>
+              <li class="list-inline-item ml-1"><button type="button" class="btn btn-primary btn-sm px-4 py-2 rounded-lg">Purchase now</button></li>
+            </ul>
+          </div>
+
+        </div>
+        
+        <hr>
+
+        <div class="row m-0 px-0 pt-4 w-100">
+          <div class="col-12 col-md-6 p-0 pr-5 m-0">
+            <a class="navbar-brand p-0 m-0" href="https://odoo.com" target="_blank"><img src="images/odoo-white.svg" width="70" alt="Logo Odoo"></a>
+            <p class="text-white-50 my-3">Odoo attempts to bring the best development experience to designers and developers by offering the tools needed for having a quick and solid start in most web projects.</p>
+            <ul class="list-inline">
+              <li class="list-inline-item pr-3"><i class="bi bi-dribbble footer-icons"></i></li>
+              <li class="list-inline-item pr-3"><i class="bi bi-github footer-icons"></i></li>
+              <li class="list-inline-item pr-3"><i class="bi bi-instagram footer-icons"></i></li>
+              <li class="list-inline-item"><i class="bi bi-facebook footer-icons"></i></li>
+            </ul>
+          </div>
+          
+          <div class="col-4 col-md-2">
+            <ul class="list-group">
+              <li class="list-group-item border-0 bg-transparent p-0 pb-3 m-0">Account</li>
+              <li class="list-group-item border-0 bg-transparent p-0 pb-1 m-0 text-white-50" style="cursor: pointer;">Profile</li>
+              <li class="list-group-item border-0 bg-transparent p-0 pb-1 m-0 text-white-50" style="cursor: pointer;">Settings</li>
+              <li class="list-group-item border-0 bg-transparent p-0 pb-1 m-0 text-white-50" style="cursor: pointer;">Billing</li>
+              <li class="list-group-item border-0 bg-transparent p-0 pb-1 m-0 text-white-50" style="cursor: pointer;">Notifications</li>
+            </ul>
+          </div>
+          <div class="col-4 col-md-2">
+            <ul class="list-group">
+              <li class="list-group-item border-0 bg-transparent p-0 pb-3 m-0">About</li>
+              <li class="list-group-item border-0 bg-transparent p-0 pb-1 m-0 text-white-50" style="cursor: pointer;">Services</li>
+              <li class="list-group-item border-0 bg-transparent p-0 pb-1 m-0 text-white-50" style="cursor: pointer;">Pricing</li>
+              <li class="list-group-item border-0 bg-transparent p-0 pb-1 m-0 text-white-50" style="cursor: pointer;">Contact</li>
+              <li class="list-group-item border-0 bg-transparent p-0 pb-1 m-0 text-white-50" style="cursor: pointer;">Careers</li>
+            </ul>
+          </div>
+          <div class="col-4 col-md-2">
+            <ul class="list-group">
+              <li class="list-group-item border-0 bg-transparent p-0 pb-3 m-0">Company</li>
+              <li class="list-group-item border-0 bg-transparent p-0 pb-1 m-0 text-white-50" style="cursor: pointer;">Terms</li>
+              <li class="list-group-item border-0 bg-transparent p-0 pb-1 m-0 text-white-50" style="cursor: pointer;">Privacy</li>
+              <li class="list-group-item border-0 bg-transparent p-0 pb-1 m-0 text-white-50" style="cursor: pointer;">Cookies</li>
+            </ul>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row" style="font-size: 11px;">
+          <div class="col-6 py-0 my-0">
+            <p>© <strong>Odoo.</strong> All rights reserved</p>
+          </div>
+          <div class="col-6 py-0 my-0 text-right">
+            <ul class="list-inline">
+              <li class="list-inline-item border-0 bg-transparent p-0 pl-4 m-0 text-white-50" style="cursor: pointer;">Terms</li>
+              <li class="list-inline-item border-0 bg-transparent p-0 pl-4 m-0 text-white-50" style="cursor: pointer;">Privacy</li>
+              <li class="list-inline-item border-0 bg-transparent p-0 pl-4 m-0 text-white-50" style="cursor: pointer;">Cookies</li>
+            </ul>
+          </div>
+        </div>
+
+
+
+
+
+
+      </div><!--end container-->
+    </footer>
+    
+
+
+
+
+
+
+    
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    
+
+
+</body>
+</html>
